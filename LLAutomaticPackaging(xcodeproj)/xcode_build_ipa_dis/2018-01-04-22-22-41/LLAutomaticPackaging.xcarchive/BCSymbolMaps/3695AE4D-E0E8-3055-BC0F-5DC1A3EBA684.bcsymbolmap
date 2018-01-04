@@ -1,0 +1,35 @@
+BCSymbolMap Version: 2.0
+-[ViewController viewDidLoad]
+-[ViewController didReceiveMemoryWarning]
+_OBJC_CLASS_$_ViewController
+_OBJC_METACLASS_$_ViewController
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/LLAutomaticPackaging/ViewController.m
+/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)
+_OBJC_CLASS_$_AppDelegate
+/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/LLAutomaticPackaging/main.m
+main
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate persistentContainer]
+___34-[AppDelegate persistentContainer]_block_invoke
+-[AppDelegate saveContext]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._persistentContainer
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/LLAutomaticPackaging/AppDelegate.m
+/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/LLAutomaticPackaging/AppDelegate.h
+__34-[AppDelegate persistentContainer]_block_invoke

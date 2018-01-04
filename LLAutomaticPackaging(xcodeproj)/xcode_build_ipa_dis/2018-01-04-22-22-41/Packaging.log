@@ -1,0 +1,355 @@
+2018-01-04 14:22:54 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fda73ef0d10; archive(resolved)='<IDEArchive: 0x7fda73d2def0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team(resolved)='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fda73ef0d10; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fda73ed1380; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fda73ef1bd0; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fda73fabbb0; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fda73ed6320; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fda73f95e60; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fda73fa3f90; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fda73db4f10; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fda73e76f30; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='<IDEProvisioningBasicTeam 0x7fda73ed4910: teamID: Y688PQN5Q4, teamName: (null)>'>
+	<IDEDistributionContext: 0x7fda73ca6620; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fda73e13f80>', team='(null)'>
+	<IDEDistributionContext: 0x7fda73d2e550; archive = '<IDEArchive: 0x7fda73d2def0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fda73ef0d10>
+2018-01-04 14:22:54 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-01-04 14:22:54 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-01-04 14:22:54 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/xcode_build_ipa_dis/2018-01-04-22-22-41/LLAutomaticPackaging.xcarchive/Products/Applications/LLAutomaticPackaging.app' '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Root/Payload/LLAutomaticPackaging.app'
+2018-01-04 14:22:54 +0000  >>> Copying /Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/xcode_build_ipa_dis/2018-01-04-22-22-41/LLAutomaticPackaging.xcarchive/Products/Applications/LLAutomaticPackaging.app 
+2018-01-04 14:22:54 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-01-04 14:22:54 +0000  6193 bytes for ./_CodeSignature/CodeResources
+copying file ./LLAutomaticPackaging ... 
+2018-01-04 14:22:54 +0000  112208 bytes for ./LLAutomaticPackaging
+2018-01-04 14:22:54 +0000  copying file ./LLAutomaticPackaging.momd/VersionInfo.plist ... 
+2018-01-04 14:22:54 +0000  181 bytes for ./LLAutomaticPackaging.momd/VersionInfo.plist
+2018-01-04 14:22:54 +0000  copying file ./LLAutomaticPackaging.momd/LLAutomaticPackaging.omo ... 
+2018-01-04 14:22:54 +0000  696 bytes for ./LLAutomaticPackaging.momd/LLAutomaticPackaging.omo
+copying file ./LLAutomaticPackaging.momd/LLAutomaticPackaging.mom ... 
+2018-01-04 14:22:54 +0000  513 bytes for ./LLAutomaticPackaging.momd/LLAutomaticPackaging.mom
+2018-01-04 14:22:54 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-01-04 14:22:54 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-01-04 14:22:54 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-01-04 14:22:54 +0000  1136 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-01-04 14:22:54 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-04 14:22:54 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-01-04 14:22:54 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-01-04 14:22:54 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-01-04 14:22:54 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-01-04 14:22:54 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-01-04 14:22:54 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./archived-expanded-entitlements.xcent ... 
+2018-01-04 14:22:54 +0000  374 bytes for ./archived-expanded-entitlements.xcent
+copying file ./embedded.mobileprovision ... 
+2018-01-04 14:22:54 +0000  13210 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2018-01-04 14:22:54 +0000  1120 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2018-01-04 14:22:54 +0000  8 bytes for ./PkgInfo
+2018-01-04 14:22:54 +0000  
+2018-01-04 14:22:54 +0000  
+2018-01-04 14:22:54 +0000  
+2018-01-04 14:22:54 +0000  
+2018-01-04 14:22:54 +0000 [MT] /usr/bin/ditto exited with 0
+2018-01-04 14:22:54 +0000  
+2018-01-04 14:22:54 +0000  2018-01-04 14:22:54 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+
+2018-01-04 14:22:54 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-01-04 14:22:54 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-01-04 14:22:54 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-01-04 14:22:54 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Root' '--json' '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool-json-filepath-Xg2Hxs' '--compile-bitcode' '--output' '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/IDEIPAProcessor.AppThinning.TDC' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-01-04 14:22:54 +0000  ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+2018-01-04 14:22:54 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1602: warning: assigned but unused variable - sourceVersion
+2018-01-04 14:22:54 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1703: warning: shadowing outer local variable - node
+2018-01-04 14:22:54 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoImage
+2018-01-04 14:22:54 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2497: warning: key :hasBitcode is duplicated and overwritten on line 2499
+2018-01-04 14:22:54 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - transformer
+2018-01-04 14:22:54 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2912: warning: assigned but unused variable - exc
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:738: warning: assigned but unused variable - output
+2018-01-04 14:22:54 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:98: warning: assigned but unused variable - temp
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:109: warning: assigned but unused variable - e
+2018-01-04 14:22:54 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-01-04 14:22:54 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-01-04 14:22:54 +0000  OS X 10.13.1 17B1003
+2018-01-04 14:22:54 +0000  
+ENV: {"TERM_SESSION_ID"=>"60BB946A-195E-41BF-ADDF-AD8DC0213373", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.hJtRsN7HSn/Listeners", "rvm_version"=>"1.27.0 (latest)", "_system_name"=>"OSX", "rvm_bin_path"=>"/Users/Lilong/.rvm/bin", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.Co0VLdKdI5/Render", "XPC_FLAGS"=>"0x0", "LANG"=>"zh_CN.UTF-8", "_system_arch"=>"x86_64", "_system_version"=>"10.13", "SHELL"=>"/bin/bash", "PWD"=>"/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/scripts", "rvm_delete_flag"=>"0", "rvm_path"=>"/Users/Lilong/.rvm", "TERM_PROGRAM_VERSION"=>"400", "TERM_PROGRAM"=>"Apple_Terminal", "PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "SHLVL"=>"2", "TERM"=>"xterm-256color", "_system_type"=>"Darwin", "USER"=>"Lilong", "TMPDIR"=>"/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/", "XPC_SERVICE_NAME"=>"0", "HOME"=>"/Users/Lilong", "LOGNAME"=>"Lilong", "rvm_prefix"=>"/Users/Lilong", "_"=>"/usr/bin/xcodebuild", "rvm_ruby_string"=>"system", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Root", "--json", "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool-json-filepath-Xg2Hxs", "--compile-bitcode", "--output", "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/IDEIPAProcessor.AppThinning.TDC", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-01-04 14:22:54 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:101: warning: method redefined; discarding old to_h
+2018-01-04 14:22:54 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-01-04 14:22:54 +0000  Scanning IPA...
+2018-01-04 14:22:54 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-01-04 14:22:55 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature LLAutomaticPackaging
+2018-01-04 14:22:55 +0000      /usr/bin/python exited with pid 68763 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2018-01-04 14:22:55 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) LLAutomaticPackaging LLAutomaticPackaging
+2018-01-04 14:22:55 +0000      /usr/bin/python exited with pid 68764 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2018-01-04 14:22:55 +0000  Complete LinkageGraph:
+    LLAutomaticPackaging.app/LLAutomaticPackaging arm64 ->
+2018-01-04 14:22:55 +0000  Validating IPA structure...
+2018-01-04 14:22:55 +0000  Compiling bitcode...
+2018-01-04 14:22:55 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -o /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging --generate-dsym /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging.dSYM --strip-swift-symbols /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging
+2018-01-04 14:22:55 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'LLAutomaticPackaging'
+2018-01-04 14:22:56 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 68777 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging" 
+        -= Output =-
+        Non-fat file: /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging" 
+        -= Output =-
+        UUID: 3695AE4D-E0E8-3055-BC0F-5DC1A3EBA684 (arm64) /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging" "-extract" "__LLVM" "__bundle" "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/LLAutomaticPackagingvXPtJ6/LLAutomaticPackaging.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/tempcASeFe
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/tempcASeFe
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/tempcASeFe
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.2.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Lib
+2018-01-04 14:22:56 +0000  rary/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/tempcASeFe
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "11.2.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/Lilong/Library/Developer/Xcode/DerivedData/LLAutomaticPackaging-ekfefiqjginsqoebidcwnattchcb/Build/Intermediates.noindex/ArchiveIntermediates/LLAutomaticPackaging/InstallationBuildProductsLocation/Applications/LLAutomaticPackaging.app/LLAutomaticPackaging" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk" "-sdk_version" "11.2.0" "-filelist" "/private/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/LLAutomaticPackagingvXPtJ6/LLAutomaticPackaging.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/LLAutomaticPackagingvXPtJ6/LLAutomaticPackaging.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging" 
+        -= Output =-
+        UUID: 22038D7B-79AD-3DDC-B7C9-07839F28747F (arm64) /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-
+2018-01-04 14:22:56 +0000  68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging" "-o" "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+2018-01-04 14:22:56 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging
+2018-01-04 14:22:56 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 68793 exit 0
+    Stdout:
+        /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/ipatool20180104-68728-172vfto/thinned/arm64/Payload/LLAutomaticPackaging.app/LLAutomaticPackaging [arm64, 0.000540 seconds]:
+    
+    Stderr:
+2018-01-04 14:22:56 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/IDEIPAProcessor.AppThinning.TDC/universal
+  Copying LLAutomaticPackaging.app output payload directory
+2018-01-04 14:22:56 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:363: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-01-04 14:22:56 +0000    Copying .dSYM files to /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/IDEIPAProcessor.AppThinning.TDC/universal/dSYMs
+  Copying .symbols files to /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/IDEIPAProcessor.AppThinning.TDC/universal/Symbols
+2018-01-04 14:22:56 +0000  2018-01-04 14:22:56 +0000  
+
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  2018-01-04 14:22:56 +0000  
+
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000 [MT] /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 02018-01-04 14:22:56 +0000  2018-01-04 14:22:56 +0000  
+
+
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000 [MT] ipatool JSON: {
+    alerts =     (
+                {
+            code = 2817;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+    );
+    universalIPA =     {
+        path = "/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/IDEIPAProcessor.AppThinning.TDC/universal";
+    };
+}
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-01-04 14:22:56 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-01-04 14:22:56 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-01-04 14:22:56 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Root/Payload/LLAutomaticPackaging.app'
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  2018-01-04 14:22:56 +0000  
+
+2018-01-04 14:22:56 +0000 [MT] /usr/bin/xattr exited with 02018-01-04 14:22:56 +0000  
+
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2018-01-04 14:22:56 +0000 [MT] Applying entitlements delta for <IDEDistributionItem: 0x7fda73eda240 'com.HePai.HePaiiOS' '<DVTFilePath:0x7fda73d2e180:'/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/xcode_build_ipa_dis/2018-01-04-22-22-41/LLAutomaticPackaging.xcarchive/Products/Applications/LLAutomaticPackaging.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fda73fa7460>: {
+}
+2018-01-04 14:22:56 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fda73eda240 'com.HePai.HePaiiOS' '<DVTFilePath:0x7fda73d2e180:'/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/xcode_build_ipa_dis/2018-01-04-22-22-41/LLAutomaticPackaging.xcarchive/Products/Applications/LLAutomaticPackaging.app'>'>: {
+    "application-identifier" = "Y688PQN5Q4.com.HePai.HePaiiOS";
+    "com.apple.developer.team-identifier" = Y688PQN5Q4;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "Y688PQN5Q4.com.HePai.HePaiiOS"
+    );
+}
+2018-01-04 14:22:56 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fda73eda240 'com.HePai.HePaiiOS' '<DVTFilePath:0x7fda73d2e180:'/Users/Lilong/Documents/IOS/Project/LGW_AutomaticPackaging/LLAutomaticPackaging(xcodeproj)/xcode_build_ipa_dis/2018-01-04-22-22-41/LLAutomaticPackaging.xcarchive/Products/Applications/LLAutomaticPackaging.app'>'> to: /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/entitlementsQY539r
+2018-01-04 14:22:56 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C6411AB4F891D87091A57B0F4DB35597BC4220D8' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/entitlementsQY539r' '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Root/Payload/LLAutomaticPackaging.app'
+2018-01-04 14:22:56 +0000  /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Root/Payload/LLAutomaticPackaging.app: signed app bundle with Mach-O thin (arm64) [com.HePai.HePaiiOS]
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  2018-01-04 14:22:56 +0000  
+
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000 [MT] /usr/bin/codesign exited with 0
+2018-01-04 14:22:56 +0000  2018-01-04 14:22:56 +0000  
+
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-01-04 14:22:56 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-01-04 14:22:56 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Root' '/var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Packages/LLAutomaticPackaging.ipa'
+2018-01-04 14:22:56 +0000  >>> Copying /var/folders/ff/z_x8ch614pn98vzm1kyhlwcw0000gn/T/XcodeDistPipeline.P1d/Root 
+2018-01-04 14:22:56 +0000  copying file ./Payload/LLAutomaticPackaging.app/_CodeSignature/CodeResources ... 
+2018-01-04 14:22:56 +0000  6193 bytes for ./Payload/LLAutomaticPackaging.app/_CodeSignature/CodeResources
+2018-01-04 14:22:56 +0000  copying file ./Payload/LLAutomaticPackaging.app/LLAutomaticPackaging ... 
+2018-01-04 14:22:56 +0000  62432 bytes for ./Payload/LLAutomaticPackaging.app/LLAutomaticPackaging
+2018-01-04 14:22:56 +0000  copying file ./Payload/LLAutomaticPackaging.app/LLAutomaticPackaging.momd/VersionInfo.plist ... 
+181 bytes for ./Payload/LLAutomaticPackaging.app/LLAutomaticPackaging.momd/VersionInfo.plist
+copying file ./Payload/LLAutomaticPackaging.app/LLAutomaticPackaging.momd/LLAutomaticPackaging.omo ... 
+2018-01-04 14:22:56 +0000  696 bytes for ./Payload/LLAutomaticPackaging.app/LLAutomaticPackaging.momd/LLAutomaticPackaging.omo
+2018-01-04 14:22:56 +0000  copying file ./Payload/LLAutomaticPackaging.app/LLAutomaticPackaging.momd/LLAutomaticPackaging.mom ... 
+513 bytes for ./Payload/LLAutomaticPackaging.app/LLAutomaticPackaging.momd/LLAutomaticPackaging.mom
+2018-01-04 14:22:56 +0000  copying file ./Payload/LLAutomaticPackaging.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-01-04 14:22:56 +0000  916 bytes for ./Payload/LLAutomaticPackaging.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/LLAutomaticPackaging.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-01-04 14:22:56 +0000  1136 bytes for ./Payload/LLAutomaticPackaging.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/LLAutomaticPackaging.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-04 14:22:56 +0000  258 bytes for ./Payload/LLAutomaticPackaging.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/LLAutomaticPackaging.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-01-04 14:22:56 +0000  1136 bytes for ./Payload/LLAutomaticPackaging.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/LLAutomaticPackaging.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-01-04 14:22:56 +0000  832 bytes for ./Payload/LLAutomaticPackaging.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/LLAutomaticPackaging.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-01-04 14:22:56 +0000  258 bytes for ./Payload/LLAutomaticPackaging.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/LLAutomaticPackaging.app/archived-expanded-entitlements.xcent ... 
+2018-01-04 14:22:56 +0000  374 bytes for ./Payload/LLAutomaticPackaging.app/archived-expanded-entitlements.xcent
+copying file ./Payload/LLAutomaticPackaging.app/embedded.mobileprovision ... 
+2018-01-04 14:22:56 +0000  13210 bytes for ./Payload/LLAutomaticPackaging.app/embedded.mobileprovision
+copying file ./Payload/LLAutomaticPackaging.app/Info.plist ... 
+2018-01-04 14:22:56 +0000  2375 bytes for ./Payload/LLAutomaticPackaging.app/Info.plist
+copying file ./Payload/LLAutomaticPackaging.app/PkgInfo ... 
+2018-01-04 14:22:56 +0000  8 bytes for ./Payload/LLAutomaticPackaging.app/PkgInfo
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000  2018-01-04 14:22:56 +0000  
+
+2018-01-04 14:22:56 +0000  2018-01-04 14:22:56 +0000 [MT] /usr/bin/ditto exited with 0
+
+2018-01-04 14:22:56 +0000  
+2018-01-04 14:22:56 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
